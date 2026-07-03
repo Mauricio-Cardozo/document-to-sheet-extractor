@@ -8,14 +8,7 @@ This tool takes that mess and outputs clean, structured data — ready to import
 
 ## Before → After
 
-**Input (supplier PDF):**
-
-| Before | After |
-|---|---|
-| "Cepillo Auto. Quita Pelos" | "Cepillo Automatico A Vapor Quita Pelos" |
-| "Guante QUIta PELOS" | "Guante Quita Pelos Mascotas" |
-| (same product listed twice) | (deduplicated) |
-| Precio: "8.000" / "$8000" | 8000 (normalized) |
+![Document-to-Sheet Extractor](screenshots/before-after.png)
 
 **Output:** clean CSV with standardized names, prices, and no duplicates.
 
